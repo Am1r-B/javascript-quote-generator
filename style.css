@@ -45,9 +45,12 @@ body {
   line-height: 1.5;
 }
 
-blockquote > p:before,
+blockquote > p:before {
+  content: "“";
+}
+
 blockquote > p:after {
-  content: '"';
+  content: "”";
 }
 
 .main-content .person {
