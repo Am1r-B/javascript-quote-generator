@@ -45,6 +45,11 @@ body {
   line-height: 1.5;
 }
 
+blockquote > p:before,
+blockquote > p:after {
+  content: '"';
+}
+
 .main-content .person {
   font-size: 1.6rem;
   color: red;
